@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: main
-          uri: https://github.com/tellonelson/microservicios.git
+          default-label: master
+          uri: https://github.com/tellonelson/microservicios
           search-paths: config-data
   application:
     name: config-service
